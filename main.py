@@ -68,6 +68,10 @@ def showGraphs():
         plt.xlabel("Days")
         plt.ylabel("Closing Price")
 
+        # save Graphs to charts folder
+        saveFile = "charts/" + stock + ".png"
+        plt.savefig(saveFile)
+
         # Show graphs
         plt.show()
 
