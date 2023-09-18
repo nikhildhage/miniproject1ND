@@ -43,6 +43,11 @@ def getClosing(ticker: str) -> list:
 
 
 def showGraphs():
+    try:
+        Path('charts').mkdir()
+    except FileExistsError:
+        pass
+
     # stocks list
     stocks = ["MSFT", "AAPL", "GME", "SONY", "META"]
 
