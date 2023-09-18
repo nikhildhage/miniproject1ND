@@ -5,6 +5,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import yfinance as yf
+from pathlib import Path
+
 
 # (5/5 points) Initial comments with your name, class and project at the top of your .py file.
 # (5/5 points) Proper import of packages used.
@@ -74,6 +76,5 @@ def showGraphs():
 
         # Show graphs
         plt.show()
-
 
 showGraphs()
