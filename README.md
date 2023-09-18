@@ -5,7 +5,7 @@
 
 ## Description
 This project will use Numpy and MatPlotLib 
-to generate graphs as PNG output.
+to generate stock closing price graphs for 5 stocks as PNG output.
 
 ## Pip install Requirements
 Please run the following 
